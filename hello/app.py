@@ -153,3 +153,4 @@ if "genre" in df.columns:
     st.dataframe(recommended)
 else:
     st.warning("Genre column not found in dataset. Cannot generate recommendations.")
+
